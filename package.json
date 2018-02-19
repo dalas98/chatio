@@ -1,13 +1,14 @@
 {
   "name": "chatio",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A simple chat client using socket.io",
   "main": "index.js",
   "author": "Grant Timmerman",
-  "license": "ISC",
+  "private": true,
+  "license": "BSD",
   "dependencies": {
-    "express": "^1.0.0",
-    "socket.io" : "^2.0.4"
+    "express": "4.13.4",
+    "socket.io": "^2.0.4"
   },
   "scripts": {
     "start": "node index.js"
